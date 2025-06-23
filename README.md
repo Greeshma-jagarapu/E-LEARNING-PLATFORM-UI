@@ -60,19 +60,19 @@ JavaScript (Vanilla) – Interactivity and dynamic elements
 
 The E-Learning Platform serves multiple educational and development purposes. Below are some of the key uses of this project:
 
-# 1. Learning Management Interface
+* 1. Learning Management Interface
 
 This project acts as a simplified version of a Learning Management System (LMS), allowing users to browse courses, view details, and simulate tracking their
 
 learning journey. It can be used to demonstrate how online education systems function from the front-end perspective.
 
-# 2. Portfolio Project
+* 2. Portfolio Project
 
 It is a strong addition to a web developer’s portfolio. It showcases your ability to create a structured, responsive, and interactive multi-page website using 
 
 core web technologies—HTML, CSS, and JavaScript.
 
-# 3. Frontend Development Practice
+* 3. Frontend Development Practice
 
 This project helps developers gain hands-on experience in:
 
@@ -84,17 +84,17 @@ This project helps developers gain hands-on experience in:
 
 - Organizing code and assets properly for scalability
 
-# 4. UI/UX Design Demo
+* 4. UI/UX Design Demo
 
 The design elements of the platform—including the course cards, dark mode toggle, and progress bars—make it useful as a demonstration of good UI/UX practices.
 
 It’s suitable for presenting in interviews or showcasing in case studies.
 
-# 5. Static Site Deployment
+* 5. Static Site Deployment
 
 It can be hosted on GitHub Pages or any static hosting platform to provide a live demonstration of your work to potential clients or employers.
 
-# 6. Base for Advanced Projects
+* 6. Base for Advanced Projects
 
 This project can be used as a foundational template for more advanced full-stack e-learning platforms by integrating backend features like:
 
@@ -104,7 +104,7 @@ This project can be used as a foundational template for more advanced full-stack
 
 - Database-driven content management
 
-# 7. Educational Tool for Others
+* 7. Educational Tool for Others
 
 Educators and trainers can use this platform as a teaching tool to help beginners understand how to build structured websites. It can also be used in workshops,
 
