@@ -119,13 +119,4 @@ bootcamps, or classroom environments.
 ![Image](https://github.com/user-attachments/assets/8594f947-c782-4d8d-bc00-6ca7195bfe97)
 ![Image](https://github.com/user-attachments/assets/5a2d1e4b-81a2-4c5f-8a2a-6d538528e2db)
 ![Image](https://github.com/user-attachments/assets/e18d6cda-3f01-46d5-8a9f-556f42a60992)
-
-
-
-
-
-
-
-
-
-
+![Image](https://github.com/user-attachments/assets/54197614-7bb5-4d18-9b9e-b91370771b2c)
