@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning | Your Progress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>E-Learn</h2>
+        <input id="check" type="checkbox">
+        <label for="check" class="checkbtn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+    </nav>
+    <section class="progress-sec">
+        <h2>Your Learning Progress</h2>
+    </section>
+    <script>
+        const courses = [
+            {
+                id: 1,
+                title: "Web Development",
+                progress: "60%"
+            },
+            {
+                id: 2,
+                title: "Python for Beginners",
+                progress: "100%"
+            }
+        ];
+
+        let progressSection = document.querySelector('.progress-sec');
+        courses.forEach(course => {
+            let progressCard = document.createElement('div');
+            progressCard.className = "course-progress-card";
+            progressCard.innerHTML = `<h3>${course.title}</h3><div class="progress-bar"><div class="progress-fill progress-${course.id}"></div><span class="progress-percentage">${course.progress}</span></div>`;
+            progressSection.appendChild(progressCard);
+
+        })
+        
+
+
+    </script>
+</body>
+</html>

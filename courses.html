@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Learning Platform | Courses</title>
+</head>
+<body style="background: white;">
+    <nav>
+        <h2>E-Learn</h2>
+        <input id="check" type="checkbox">
+        <label for="check" class="checkbtn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+    </nav>
+    <h1 class="course-heading">Available Courses</h1>
+    <div class="course-grid" id="course-list"></div>
+    <footer class="footer">
+        <p>&copy; 2025 E-Learn. All rights reserved.</p>
+    </footer>
+    <script>
+        const courses = [
+            {
+                id: 1,
+                title: "HTML Basics",
+                description: "Learn the structure of web pages using HTML.",
+            },
+            {
+                id: 2,
+                title: "CSS Fundamentals",
+                description: "Style your website beautifully with CSS.",
+            },
+            {
+                id: 3,
+                title: "JavaScript Essentials",
+                description: "Add interactivity to your websites using JS.",
+            },
+            {
+                id: 4,
+                title: "Web Development",
+                description: "HTML, CSS and JavaScript for beginners.",
+            },
+            {
+                id: 5,
+                title: "Python for Beginners",
+                description: "Learn code in Python from scratch.",
+            },
+            {
+                id: 6,
+                title: "Data Structures",
+                description: "Master essential algorithms & logic.",
+            }
+        ];
+        
+        const courseList = document.getElementById('course-list'); 
+        courses.forEach(course => {
+           let card = document.createElement('div');
+           card.className = "course-card";
+           card.innerHTML = `<h4>${course.title}</h4>
+            <p>${course.description}</p>
+            <a href="course_detail.html?courseId=${course.id}" class="btn small-btn">View Course</a>`;
+            courseList.appendChild(card);
+        });
+
+        
+    </script>
+    
+</body>
+</html>
+

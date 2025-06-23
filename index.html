@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Learning Platform</title>
+</head>
+<body>
+    <nav>
+        <h2>E-Learn</h2>
+        
+            <input id="check" type="checkbox">
+            <label for="check" class="checkbtn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html" id="login">Login</a></li>
+            </ul>
+    </nav>
+    
+    <main class="home-container">
+        <section class="hero-sec">
+            <h2>Learn Anything, Anytime, Anywhere</h2>
+            <p>Join thousands of learners and gain new skills with our expert-led courses.</p>
+            <a href="signUp.html" class="btn hero-btn">Get Started</a>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits">
+            <h3>Why Choose E-Learn?</h3>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <h4>Flexible Learning</h4>
+                    <p>Learn at your own pace from any device.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Top Instructors</h4>
+                    <p>Course taught by industry experts and educators.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Track Progress</h4>
+                    <p>Monitor your course completion and achievements.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Preview -->
+        <section class="top-courses">
+            <h3>Popular Courses</h3>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h4>Web Development</h4>
+                    <p>HTML, CSS and JavaScript for beginners</p>
+                    <a href="course_detail.html?courseId=4" class="btn small-btn">View Course</a>
+                </div>
+                <div class="course-card">
+                    <h4>Python for Beginners</h4>
+                    <p>Learn code in Python from scratch</p>
+                    <a href="course_detail.html?courseId=5" class="btn small-btn">View Course</a>
+                </div>
+                <div class="course-card">
+                    <h4>Data Structures</h4>
+                    <p>Master essential algorithms & logic</p>
+                    <a href="course_detail.html?courseId=6" class="btn small-btn">View Course</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 E-Learn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
